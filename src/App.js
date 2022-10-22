@@ -7,7 +7,6 @@ function App() {
     <AppContextProvider>
       <Page />
     </AppContextProvider>
-
   );
 }
 
