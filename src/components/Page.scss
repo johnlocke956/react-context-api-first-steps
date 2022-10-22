@@ -1,0 +1,39 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  font-weight: bold;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  text-align: center;
+}
+
+h1 {
+  padding: 1rem;
+}
+
+button {
+  border: none;
+  padding: 1rem;
+  min-width: 2rem;
+  border-radius: 32px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-style: italic;
+}
+
+.light {
+  background: #c6c6c6;
+  color: rgb(69, 69, 69);
+}
+
+.dark {
+  background: rgb(69, 69, 69);
+  color: #c6c6c6;
+}
